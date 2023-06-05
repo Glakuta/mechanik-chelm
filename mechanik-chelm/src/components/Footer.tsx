@@ -61,7 +61,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="mt-10 md:mt-0 md:mr-8">
+      <div className="mt-10 mr-0 md:mt-0 md:mr-8">
         <h4 className="text-lg font-bold">Usługi</h4>
         <ul className="md:mt-5">
           <li className="text-base whitespace-nowrap">
@@ -126,7 +126,7 @@ const Footer = (props: Props) => {
           </li>
         </ul>
       </div>
-      <div className="mt-10 md:mt-0 md:ml-5">
+      <div className="mt-10 ml-0 md:mt-0 md:ml-5">
         <h4 className="text-lg font-bold">Informacje kontaktowe</h4>
         <ul className="mt-5">
           <li>

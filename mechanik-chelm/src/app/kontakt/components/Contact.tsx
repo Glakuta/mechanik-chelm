@@ -13,7 +13,7 @@ const Contact = (props: Props) => {
   return (
     <section className="bg-grey-300">
       <h3 className="mt-16 text-3xl font-semibold text-center text-gray-500 font-OpenSans">
-        Skontaktuj się z nami!
+        Skontaktuj się z nami
       </h3>
       <div className="flex flex-col items-start justify-between m-10 mt-16 md:flex-row ">
         <div className="flex flex-col items-center justify-center">

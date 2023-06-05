@@ -25,16 +25,14 @@ const AutoRepair = (props: Props) => {
         }}
       />
       <p className="mt-16 text-gray-500 font-OpenSans">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem totam
-        voluptatibus esse, animi eveniet quos itaque porro aliquid nisi aperiam
-        officiis nihil veniam tempore dolor fugiat. Architecto perferendis,
-        possimus reprehenderit, provident vero, rem iste corrupti odio eum esse
-        eius iusto eos ullam consectetur! At est labore officia hic dolore
-        possimus.
+        Zapraszamy do naszego warsztatu samochodowego, gdzie oferujemy szeroką
+        gamę usług, aby zapewnić Ci pełną opiekę nad Twoim pojazdem.
+        Specjalizujemy się w obszarach, takich jak rozrządy, zawieszenia,
+        elektromechanika oraz elektryka napełnienie klimatyzacji, diagnostyka
+        komputerowa, wymiana oleju oraz naprawy bieżące.
       </p>
       <p className="mt-16 text-gray-500 font-OpenSans">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem totam
-        voluptatibus ess
+        Zapoznaj się z naszą szeroką ofertą!
       </p>
       <h3 className="mt-12 text-3xl font-semibold text-center text-gray-500 font-OpenSans">
         Usługi napraw aut

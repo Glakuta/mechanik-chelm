@@ -1,6 +1,7 @@
 "use client";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -17,39 +18,34 @@ const Navbar = (props: Props) => {
     <>
       <section className="relative z-20 flex-row items-center justify-between hidden p-12 md:flex">
         <div>
-          <h1>LOGO</h1>
+          <Image
+            src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/LogoUzarek__2_-removebg-preview.png"
+            alt="Assistance Uzarek"
+            width={150}
+            height={150}
+          />
         </div>
         <div>
           <nav className="hidden md:block">
             <ul className="flex flex-row items-center justify-between gap-5">
               <li>
-                <Link
-                  href={"/"}
-                  className="text-gray-400 hover:text-yellow-400"
-                >
+                <Link href={"/"} className="text-gray-400 hover:text-blue-800">
                   WARSZTAT
                 </Link>
               </li>
               <li>
                 <Link
                   href={"/elektromechanik"}
-                  className="text-gray-400 hover:text-yellow-400"
+                  className="text-gray-400 hover:text-blue-800"
                 >
                   ELEKTROMECHANIK
                 </Link>
               </li>
-              <li>
-                <Link
-                  href={"/uslugi"}
-                  className="text-gray-400 hover:text-yellow-400"
-                >
-                  USŁUGI
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href={"/autolaweta"}
-                  className="text-gray-400 hover:text-yellow-400"
+                  className="text-gray-400 hover:text-blue-800"
                 >
                   POMOC DROGOWA{" "}
                 </Link>
@@ -57,7 +53,7 @@ const Navbar = (props: Props) => {
               <li>
                 <Link
                   href={"/kontakt"}
-                  className="text-gray-400 hover:text-yellow-400"
+                  className="text-gray-400 hover:text-blue-800"
                 >
                   KONTAKT{" "}
                 </Link>
@@ -69,17 +65,22 @@ const Navbar = (props: Props) => {
 
       <section className="relative z-30 flex flex-row items-center justify-between p-4 md:hidden">
         <div>
-          <h1>LOGO</h1>
+          <Image
+            src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/LogoUzarek__2_-removebg-preview.png"
+            alt="Assistance Uzarek"
+            width={200}
+            height={200}
+          />
         </div>
         <div>
           <button
-            className="text-gray-400 hover:text-yellow-400"
+            className="text-gray-400 hover:text-blue-800"
             onClick={handleMenuToggle}
           >
             <FontAwesomeIcon
               icon={faBars}
               style={{
-                color: "white",
+                color: "#95A3A6",
                 width: "40px",
                 height: "40px",
                 textAlign: "end",
@@ -93,30 +94,22 @@ const Navbar = (props: Props) => {
         <section className="relative z-30 p-4 bg-white md:hidden">
           <ul className="flex flex-col items-start justify-center gap-4">
             <li>
-              <Link href={"/"} className="text-gray-400 hover:text-yellow-400">
+              <Link href={"/"} className="text-black hover:text-blue-800">
                 WARSZTAT
               </Link>
             </li>
             <li>
               <Link
                 href={"/elektromechanik"}
-                className="text-gray-400 hover:text-yellow-400"
+                className="text-black hover:text-blue-800"
               >
                 ELEKTROMECHANIK
               </Link>
             </li>
             <li>
               <Link
-                href={"/uslugi"}
-                className="text-gray-400 hover:text-yellow-400"
-              >
-                USŁUGI
-              </Link>
-            </li>
-            <li>
-              <Link
                 href={"/autolaweta"}
-                className="text-gray-400 hover:text-yellow-400"
+                className="text-black hover:text-blue-800"
               >
                 POMOC DROGOWA{" "}
               </Link>
@@ -124,7 +117,7 @@ const Navbar = (props: Props) => {
             <li>
               <Link
                 href={"/kontakt"}
-                className="text-gray-400 hover:text-yellow-400"
+                className="text-black hover:text-blue-800"
               >
                 KONTAKT{" "}
               </Link>
