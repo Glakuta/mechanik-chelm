@@ -38,7 +38,7 @@ const Navbar = (props: Props) => {
                   href={"/elektromechanik"}
                   className="text-gray-400 hover:text-blue-800"
                 >
-                  ELEKTROMECHANIK
+                  ELEKTRONIKA SAMOCHODOWA
                 </Link>
               </li>
 

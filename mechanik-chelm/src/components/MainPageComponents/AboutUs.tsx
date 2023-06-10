@@ -6,15 +6,16 @@ const AboutUs = (props: Props) => {
   return (
     <section className="mt-96">
       <h2 className="gap-4 mb-20 text-3xl font-normal tracking-wide text-center text-gray-700 max-w font-OpenSans">
-        Elektronika samochodowa - Uzarek, diagnoza oraz naprawa elektroniki w
-        pojazdach. Assistance 24h/7
+        Warsztat Samochdowy Uzarek - mechanika pojazdów, elektromechanik,
+        assistance 24h/7
       </h2>
       <p className="max-w-6xl m-10 font-light text-center text-gray-500">
-        Elektronika samochodowa Uzarek to firma specjalizująca się w elektronice
-        samochodowej i pomocy drogowej. Oferujemy szeroki zakres usług dla
-        naszych klientów. Nasz zespół doświadczonych elektroników samochodowych
-        zapewnia profesjonalne naprawy, konserwację i diagnozę pojazdów.
-        Zapewniamy również wsparcie w trudnych sytuacjach na drodze.
+        Elektromechanik Uzarek to firma specjalizująca się w mechanice
+        samochodowej, elektromechanice i pomocy drogowej. Oferujemy szeroki
+        zakres usług dla naszych klientów. Nasz zespół doświadczonych mechaników
+        i elektryków samochodowych zapewnia profesjonalne naprawy, konserwację i
+        diagnozę pojazdów. Zapewniamy również wsparcie w trudnych sytuacjach na
+        drodze.
       </p>
       <div className="mt-16">
         <a href="/kontakt">
