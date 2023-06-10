@@ -9,9 +9,8 @@ const AutoRepair = (props: Props) => {
   return (
     <div className="flex flex-col items-center justify-center m-10 mt-36">
       <h3 className="text-3xl font-semibold text-center text-gray-500 font-OpenSans">
-        Rozrządy, zawieszenia, napełnienie klimatyzacji, diagnostyka
-        komputerowa, wymiana oleju oraz naprawy bieżące - dowiedz się więcej o
-        ofercie Warsztatu
+        Diagnoza, naprawa elektroniki, wymiana świateł, car security - dowiedz
+        się więcej o ofercie Warsztatu
       </h3>
       <hr
         style={{
@@ -25,11 +24,10 @@ const AutoRepair = (props: Props) => {
         }}
       />
       <p className="mt-16 text-gray-500 font-OpenSans">
-        Zapraszamy do naszego warsztatu samochodowego, gdzie oferujemy szeroką
-        gamę usług, aby zapewnić Ci pełną opiekę nad Twoim pojazdem.
-        Specjalizujemy się w obszarach, takich jak rozrządy, zawieszenia,
-        elektromechanika oraz elektryka napełnienie klimatyzacji, diagnostyka
-        komputerowa, wymiana oleju oraz naprawy bieżące.
+        Zapraszamy do naszego serwisu, gdzie oferujemy szeroką gamę usług, aby
+        zapewnić Ci pełną opiekę nad Twoim pojazdem. Specjalizujemy się w
+        obszarach, takich jak elektromechanika, diagnostyka komputerowa, car
+        security oraz wiele innych.
       </p>
       <p className="mt-16 text-gray-500 font-OpenSans">
         Zapoznaj się z naszą szeroką ofertą!
@@ -49,34 +47,6 @@ const AutoRepair = (props: Props) => {
         }}
       />
       <div className="flex flex-col items-center justify-start m-10 lg:flex-row">
-        <div className="transition duration-300 ease-in-out delay-150 cursor-pointer md:mr-16 mr-md:16 hover:-translate-y-1 hover:scale-110">
-          <Image
-            src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/garett-mizunaka-xFjti9rYILo-unsplash.jpg"
-            }
-            alt={"naprawa silnika chełm"}
-            width={400}
-            height={600}
-          />
-          <div className="flex flex-row items-center justify-between h-16 m-auto bg-gray-100">
-            <h4 className="ml-5">Naprawa silnika</h4>
-            <FontAwesomeIcon icon={faAngleRight} style={{ color: "#1e40af" }} />
-          </div>
-        </div>
-        <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 hover:-translate-y-1 hover:scale-110">
-          <Image
-            src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/tim-mossholder-V37iTrYZz2E-unsplash.jpg"
-            }
-            alt={"wymiana oleju chełm"}
-            width={400}
-            height={600}
-          />
-          <div className="flex flex-row items-center justify-between h-16 m-auto bg-gray-100 ">
-            <h4 className="ml-5">Wymiana oleju</h4>
-            <FontAwesomeIcon icon={faAngleRight} style={{ color: "#1e40af" }} />
-          </div>
-        </div>
         <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 md:ml-16 hover:-translate-y-1 hover:scale-110">
           <Image
             src={
@@ -87,7 +57,35 @@ const AutoRepair = (props: Props) => {
             height={600}
           />
           <div className="flex flex-row items-center justify-between h-16 m-auto bg-gray-100">
-            <h4 className="ml-5">Elektromechnika</h4>
+            <h4 className="ml-5">Elektronika samochodowa</h4>
+            <FontAwesomeIcon icon={faAngleRight} style={{ color: "#1e40af" }} />
+          </div>
+        </div>
+        <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 hover:-translate-y-1 hover:scale-110">
+          <Image
+            src={
+              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/Pomoc+drogowa+Che%C5%82m-+siedziba.jpg"
+            }
+            alt={"wymiana oleju chełm"}
+            width={400}
+            height={600}
+          />
+          <div className="flex flex-row items-center justify-between h-16 m-auto bg-gray-100 ">
+            <h4 className="ml-5">Pomoc drogowa</h4>
+            <FontAwesomeIcon icon={faAngleRight} style={{ color: "#1e40af" }} />
+          </div>
+        </div>
+        <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 hover:-translate-y-1 hover:scale-110">
+          <Image
+            src={
+              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/kate-ibragimova-bEGTsOCnHro-unsplash.jpg"
+            }
+            alt={"wymiana oleju chełm"}
+            width={400}
+            height={600}
+          />
+          <div className="flex flex-row items-center justify-between h-16 m-auto bg-gray-100 ">
+            <h4 className="ml-5">Diagnostyka pojazdów</h4>
             <FontAwesomeIcon icon={faAngleRight} style={{ color: "#1e40af" }} />
           </div>
         </div>

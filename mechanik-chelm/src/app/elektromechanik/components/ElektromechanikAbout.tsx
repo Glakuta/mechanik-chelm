@@ -22,7 +22,7 @@ const ElektromechanikAbout = (props: Props) => {
         </div>
         <div className="max-w-lg ">
           <h3 className="gap-4 m-10 mt-48 mb-20 text-3xl font-bold tracking-wide text-center text-gray-700 max-w font-OpenSans">
-            Autoelektronika Uzarek - Chełm
+            Elektronika samochodowa - Chełm
           </h3>
           <p className="max-w-2xl m-10 font-light text-left text-gray-500">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
@@ -46,7 +46,7 @@ const ElektromechanikAbout = (props: Props) => {
       </div>
       <div className="flex flex-col items-center justify-center">
         <h3 className="gap-4 m-10 mt-48 mb-20 text-3xl font-bold tracking-wide text-center text-gray-700 max-w font-OpenSans">
-          Oferta elektromechanik
+          Oferta
         </h3>
         <p className="m-10 font-light text-center text-gray-500">
           Wybierając naszą firmę mają Państwo pewność, że otrzymają usługi na
@@ -107,7 +107,7 @@ const ElektromechanikAbout = (props: Props) => {
           </div>
           <div className="flex flex-col items-center justify-center mt-16 ">
             <h5 className="gap-4 font-bold tracking-wide text-left text-gray-700 text-md md:text-xl max-w font-OpenSans">
-              Elektryka samochodowa
+              Elektronika samochodowa
             </h5>
             <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
               <div className="max-w-md">
@@ -121,30 +121,29 @@ const ElektromechanikAbout = (props: Props) => {
                         height: "21px",
                       }}
                     />{" "}
+                    Montaż śwoateł do jazdy dziennej
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
+                      icon={faCheck}
+                      style={{
+                        color: "#1e69b8",
+                        width: "21px",
+                        height: "21px",
+                      }}
+                    />{" "}
+                    Montaż radia android
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
+                      icon={faCheck}
+                      style={{
+                        color: "#1e69b8",
+                        width: "21px",
+                        height: "21px",
+                      }}
+                    />{" "}
                     Naprawa instalacji
-                  </li>
-                  <li>
-                    <FontAwesomeIcon
-                      icon={faCheck}
-                      style={{
-                        color: "#1e69b8",
-                        width: "21px",
-                        height: "21px",
-                      }}
-                    />{" "}
-                    Naprawa oświetlenia
-                  </li>
-                  <li>
-                    <FontAwesomeIcon
-                      icon={faCheck}
-                      style={{
-                        color: "#1e69b8",
-                        width: "21px",
-                        height: "21px",
-                      }}
-                    />{" "}
-                    Adaptacje oświetlenia samochodów z rynku amerykańskiego na
-                    EU
                   </li>
                 </ul>
               </div>
@@ -253,6 +252,17 @@ const ElektromechanikAbout = (props: Props) => {
             <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
               <div className="max-w-md">
                 <ul className="mt-5">
+                  <li>
+                    <FontAwesomeIcon
+                      icon={faCheck}
+                      style={{
+                        color: "#1e69b8",
+                        width: "21px",
+                        height: "21px",
+                      }}
+                    />{" "}
+                    Montaż elektrycznego zamka
+                  </li>
                   <li>
                     <FontAwesomeIcon
                       icon={faCheck}

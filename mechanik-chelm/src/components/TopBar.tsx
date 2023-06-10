@@ -40,21 +40,25 @@ const TopBar = (props: Props) => {
             className="w-4 h-4 mt-auto mb-auto ml-4 hover:bg-slate-100"
           />
           <p className="ml-2 text-xs font-semibold text-gray-500 font-OpenSans">
-            9:00 - 17:00
+            Warsztat 9:00 - 17:00, pomoc drogowa 24/7
           </p>
         </div>
       </div>
       <div className="flex flex-row mr-12">
-        <FontAwesomeIcon
-          icon={faFacebookF}
-          style={{ color: "#a4aab3" }}
-          className="w-4 h-4 mt-auto mb-auto mr-8 rounded-full cursor-pointer hover:bg-slate-100"
-        />
-        <FontAwesomeIcon
-          icon={faGoogle}
-          style={{ color: "#a4aab3" }}
-          className="w-4 h-4 mt-auto rounded-full cursor-pointer mb-aut hover:bg-slate-100"
-        />
+        <a href="https://facebook.com/watch/107065011941237/">
+          <FontAwesomeIcon
+            icon={faFacebookF}
+            style={{ color: "#a4aab3" }}
+            className="w-4 h-4 mt-auto mb-auto mr-8 rounded-full cursor-pointer hover:bg-slate-100"
+          />
+        </a>
+        <a href="https://goo.gl/maps/SL4trqzZzGAToP1e6">
+          <FontAwesomeIcon
+            icon={faGoogle}
+            style={{ color: "#a4aab3" }}
+            className="w-4 h-4 mt-auto rounded-full cursor-pointer mb-aut hover:bg-slate-100"
+          />
+        </a>
       </div>
     </section>
   );

@@ -17,30 +17,17 @@ const OurServices = () => {
       <div className="flex flex-col items-center justify-around mt-16 md:flex-row">
         <div className="flex items-center justify-center w-24 h-24 bg-blue-800 rounded-full shadow-lg">
           <FontAwesomeIcon
-            icon={faOilCan}
-            style={{ color: "#ffffff", width: "48px", height: "48px" }}
-          />
-        </div>
-        <div className="flex flex-col items-start justify-start w-64 mt-8 ml-4">
-          <h5 className="font-bold text-left text-gray-700">Wymiana oleju</h5>
-          <p className="mt-2 text-gray-500">
-            Nasza usługa wymiany oleju jest idealna dla Twojego samochodu, aby
-            zapewnić mu długotrwałą i efektywną pracę
-          </p>
-        </div>
-        <div className="flex items-center justify-center w-24 h-24 bg-blue-800 rounded-full shadow-lg">
-          <FontAwesomeIcon
             icon={faCarBattery}
             style={{ color: "#ffffff", width: "48px", height: "48px" }}
           />
         </div>
         <div className="flex flex-col items-start justify-start w-64 mt-8 ml-4">
           <h5 className="font-bold text-left text-gray-700">
-            Naprawa akumulatorów i elektroniki samochodowej
+            Naprawaelektroniki samochodowej
           </h5>
           <p className="mt-2 text-gray-500">
-            Jeśli Twój samochód ma problemy z akumulatorem lub elektroniką,
-            jesteśmy tutaj, aby pomóc.
+            Jeśli Twój samochód ma problemy z elektroniką, jesteśmy tutaj, aby
+            pomóc.
           </p>
         </div>
         <div className="flex items-center justify-center w-24 h-24 bg-blue-800 rounded-full shadow-lg">
