@@ -12,7 +12,7 @@ const Assistance = (props: Props) => {
       </h3>
       <div className="flex flex-col items-center justify-center gap-10 md:flex-row mt-36">
         <Image
-          src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/Pomoc-drogowa-Che%C5%82m.jpg"
+          src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/Pomoc+drogowa+Che%C5%82m-+siedziba.jpg"
           alt="zdjęcie-pomoc-drogowa"
           width={600}
           height={420}
