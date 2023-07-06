@@ -8,7 +8,7 @@ const HeroSection = (props: Props) => {
   return (
     <section className="flex flex-col items-center justify-center p-4">
       <Image
-        src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/Assistance24-Che%C5%82m-Siedziba+(2).jpg"
+        src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/Assistance24-Che%C5%82m-Siedziba+(2).jpg"
         alt="Elektromechanik-Chełm"
         fill
         className="relative z-10 object-cover object-center"
