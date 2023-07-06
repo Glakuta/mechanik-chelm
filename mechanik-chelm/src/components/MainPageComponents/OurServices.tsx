@@ -23,7 +23,7 @@ const OurServices = () => {
         </div>
         <div className="flex flex-col items-start justify-start w-64 mt-8 ml-4">
           <h5 className="font-bold text-left text-gray-700">
-            Naprawaelektroniki samochodowej
+            Naprawa elektroniki samochodowej
           </h5>
           <p className="mt-2 text-gray-500">
             Jeśli Twój samochód ma problemy z elektroniką, jesteśmy tutaj, aby
