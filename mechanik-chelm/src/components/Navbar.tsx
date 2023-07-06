@@ -19,7 +19,7 @@ const Navbar = (props: Props) => {
       <section className="relative z-20 flex-row items-center justify-between hidden p-12 md:flex">
         <div>
           <Image
-            src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/LogoUzarek__2_-removebg-preview.png"
+            src="https://assistance-krakow.s3.eu-north-1.amazonaws.com/Logo_Uzarek-usuni%C4%99te.png"
             alt="Assistance Uzarek"
             width={150}
             height={150}
