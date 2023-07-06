@@ -10,7 +10,7 @@ const OferMake = (props: Props) => {
     <section className="flex flex-col bg-gray-200 md:flex-row">
       <div className="m-16">
         <Image
-          src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/kate-ibragimova-iFQpqbLMOFU-unsplash.jpg"
+          src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/kate-ibragimova-iFQpqbLMOFU-unsplash.jpg"
           alt="Nasza oferta"
           height={500}
           width={500}
