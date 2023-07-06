@@ -8,7 +8,7 @@ const AssistanceHero = (props: Props) => {
   return (
     <section>
       <Image
-        src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/Pomoc-drogowa-Che%C5%82m.jpg"
+        src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/Laweta-Che%C5%82m.jpg"
         alt="Pomoc Drogowa Chełm"
         fill
         className="relative z-10 object-cover object-center"
