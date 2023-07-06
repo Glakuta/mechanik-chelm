@@ -50,7 +50,7 @@ const AutoRepair = (props: Props) => {
         <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 md:ml-16 hover:-translate-y-1 hover:scale-110">
           <Image
             src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/maxim-hopman-s4d_ESS0ylA-unsplash.jpg"
+              "https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/maxim-hopman-s4d_ESS0ylA-unsplash.jpg"
             }
             alt={"elektromechanik chełm"}
             width={400}
@@ -64,7 +64,7 @@ const AutoRepair = (props: Props) => {
         <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 hover:-translate-y-1 hover:scale-110">
           <Image
             src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/Pomoc+drogowa+Che%C5%82m-+siedziba.jpg"
+              "https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/Pomoc-Drogowa-Uzarek-24.jpg"
             }
             alt={"wymiana oleju chełm"}
             width={400}
@@ -78,7 +78,7 @@ const AutoRepair = (props: Props) => {
         <div className="transition duration-300 ease-in-out delay-150 cursor-pointer mt-7 md:mt-0 hover:-translate-y-1 hover:scale-110">
           <Image
             src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/kate-ibragimova-bEGTsOCnHro-unsplash.jpg"
+              "https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/kate-ibragimova-bEGTsOCnHro-unsplash.jpg"
             }
             alt={"wymiana oleju chełm"}
             width={400}
