@@ -12,7 +12,7 @@ const ElektromechanikAbout = (props: Props) => {
         <div>
           <Image
             src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/c-joyful-heFTscwGDCA-unsplash.jpg"
+              "https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/c-joyful-heFTscwGDCA-unsplash.jpg"
             }
             height={500}
             width={500}
