@@ -54,18 +54,6 @@ const OurServices = () => {
             letnie lub zimowe? Wymiana kół w razie wypadku
           </p>
         </div>
-        <div className="flex items-center justify-center w-24 h-24 bg-blue-800 rounded-full shadow-lg">
-          <TbEngine className="w-12 h-12 text-white" />
-        </div>
-        <div className="flex flex-col items-start justify-start w-64 mt-8 ml-4">
-          <h5 className="font-bold text-left text-gray-700">
-            Naprawa silników oraz skrzyń biegów
-          </h5>
-          <p className="mt-2 text-gray-500">
-            Jeśli Twój samochód ma problemy z silnikiem lub skrzynią biegów, nie
-            martw się - nasi doświadczeni mechanicy są tutaj, aby to naprawić.
-          </p>
-        </div>
       </div>
     </section>
   );
