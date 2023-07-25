@@ -7,7 +7,7 @@ const ElektromechanikHeroSection = (props: Props) => {
   return (
     <div className="relative z-10 flex flex-col items-start justify-start bg-gray-300 min-h-[500px]">
       <Image
-        src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/maxim-hopman-s4d_ESS0ylA-unsplash.jpg"
+        src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/maxim-hopman-s4d_ESS0ylA-unsplash.jpg"
         alt="Elektromechanik-Chełm"
         fill
         className="relative z-20 object-cover object-center"

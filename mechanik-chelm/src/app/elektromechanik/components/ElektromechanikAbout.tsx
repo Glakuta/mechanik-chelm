@@ -12,7 +12,7 @@ const ElektromechanikAbout = (props: Props) => {
         <div>
           <Image
             src={
-              "https://mechanik-chelm.s3.eu-central-1.amazonaws.com/c-joyful-heFTscwGDCA-unsplash.jpg"
+              "https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/c-joyful-heFTscwGDCA-unsplash.jpg"
             }
             height={500}
             width={500}
@@ -400,8 +400,30 @@ const ElektromechanikAbout = (props: Props) => {
                         width: "21px",
                         height: "21px",
                       }}
-                    />{" "}
-                    Blokady zapłonu{" "}
+                    />
+                    Blokady zapłonu
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
+                      icon={faCheck}
+                      style={{
+                        color: "#1e69b8",
+                        width: "21px",
+                        height: "21px",
+                      }}
+                    />
+                    Montaż monitoringu w samochodach ciężarowych
+                  </li>
+                  <li>
+                    <FontAwesomeIcon
+                      icon={faCheck}
+                      style={{
+                        color: "#1e69b8",
+                        width: "21px",
+                        height: "21px",
+                      }}
+                    />
+                    Montaż monitoringu w samochodach ciężarowych
                   </li>
                 </ul>
               </div>

@@ -13,7 +13,7 @@ const AssistanceDescription = (props: Props) => {
       </h3>
       <div className="flex flex-col items-center justify-center gap-24 md:flex-row">
         <Image
-          src="https://mechanik-chelm.s3.eu-central-1.amazonaws.com/erik-mclean-3uHlGFnzPDU-unsplash.jpg"
+          src="https://elektromechanik-chelm.s3.eu-north-1.amazonaws.com/erik-mclean-3uHlGFnzPDU-unsplash.jpg"
           alt="Assistance 24 Chełm"
           width={500}
           height={500}

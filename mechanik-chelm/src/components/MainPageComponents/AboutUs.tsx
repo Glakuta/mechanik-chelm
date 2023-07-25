@@ -6,14 +6,12 @@ const AboutUs = (props: Props) => {
   return (
     <section className="mt-96">
       <h2 className="gap-4 mb-20 text-3xl font-normal tracking-wide text-center text-gray-700 max-w font-OpenSans">
-        Warsztat Samochdowy Uzarek - mechanika pojazdów, elektromechanik,
+        Warsztat Samochdowy Uzarek - elektronika samochodowa,
         assistance 24h/7
       </h2>
       <p className="max-w-6xl m-10 font-light text-center text-gray-500">
-        Elektromechanik Uzarek to firma specjalizująca się w mechanice
-        samochodowej, elektromechanice i pomocy drogowej. Oferujemy szeroki
-        zakres usług dla naszych klientów. Nasz zespół doświadczonych mechaników
-        i elektryków samochodowych zapewnia profesjonalne naprawy, konserwację i
+        Elektromechanik Uzarek to firma specjalizująca się w, elektronice samochodowej i pomocy drogowej. Oferujemy szeroki
+        zakres usług dla naszych klientów. Nasz zespół doświadczonych elektroników samochodowych zapewnia profesjonalne naprawy, konserwację i
         diagnozę pojazdów. Zapewniamy również wsparcie w trudnych sytuacjach na
         drodze.
       </p>
