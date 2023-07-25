@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://elektronikasamochodowa-uzarek.pl
+
+# Sitemaps
+Sitemap: https://elektronikasamochodowa-uzarek.pl/sitemap.xml
